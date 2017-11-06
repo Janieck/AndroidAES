@@ -18,6 +18,12 @@
         android:onClick="aes"
         android:text="AES解密和解密"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rsa"
+        android:text="RSA加密和解密"/>
+
 
     <TextView
         android:id="@+id/tv_result"
